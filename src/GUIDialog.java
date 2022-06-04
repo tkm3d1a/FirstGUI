@@ -27,7 +27,10 @@ public class GUIDialog implements ActionListener{
 
   public void actionPerformed(ActionEvent e){
     String textToShow;
-    textToShow = JOptionPane.showInputDialog(frame,"Enter the text you want to display: ","Input Dialog",JOptionPane.QUESTION_MESSAGE);
+    textToShow = JOptionPane.showInputDialog(frame,
+    "Enter the text you want to display: ",
+    "Input Dialog",
+    JOptionPane.QUESTION_MESSAGE);
 
     if(textToShow != null){
       button.setForeground(Color.red);
