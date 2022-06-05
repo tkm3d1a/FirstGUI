@@ -15,6 +15,9 @@ public class GUIDialog implements ActionListener{
   public void start(){
     frame = new JFrame("A GUI Button");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+    System.out.println("start command run");
+
     Container contentPane = frame.getContentPane();
 
     button = new JButton("Click me!!");
